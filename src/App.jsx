@@ -1,12 +1,19 @@
 import './App.css'
+import Hero from './Pages/Hero'
+import About from './Pages/About' 
+import Tracks from './Pages/Tracks' 
+import Timeline from './Pages/Timeline'
+import FAQ from './Pages/FAQ'
 
 function App() {
 
   return (
     <>
-      <h1 className="text-5xl font-bold">
-        Hello world!
-      </h1>
+      <Hero />
+      <About />
+      <Tracks />
+      <Timeline />
+      <FAQ />
     </>
   )
 }
