@@ -16,7 +16,7 @@ export default function Timeline() {
     >
       <Heading title="TIMELINE" />
 
-      <div className="max-w-5xl mx-auto group bg-white/5 backdrop-blur-sm rounded-3xl border border-white/20 p-10 relative z-10 my-10 md:my-20">
+      <div className="max-w-5xl mx-auto group bg-white/5 backdrop-blur-sm rounded-3xl border border-white/20 p-10 relative z-10 mb-36">
         {/* Vertical line */}
         <div className="absolute top-10 left-1/2 transform -translate-x-1/2 h-[calc(100%-5rem)] w-0.5 bg-white z-0" />
 

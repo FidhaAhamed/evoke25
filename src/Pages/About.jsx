@@ -3,11 +3,11 @@ import Heading from '../Components/Heading';
 
 const About = () => {
   return (
-    <section className="bg-c1 text-white py-16 px-6 md:px-20 text-center font-jost">
+    <section className="bg-c1 text-white py-10 px-6 md:px-20 text-center font-jost">
       
       <Heading title = "ABOUT EVOKE" />
 
-      <div className="max-w-4xl mx-auto space-y-6 text-base md:text-lg leading-relaxed text-justify my-12 md:my-20">
+      <div className="max-w-4xl mx-auto space-y-6 text-base md:text-lg leading-relaxed text-justify">
         <p>
           The MACE IoT Club in collaboration with IEDC MACE proudly presents Evoke 2025 – the flagship Technical Project Expo and Competition set to take place on 2nd August 2025. This vibrant event serves as a launchpad for young innovators to showcase functional prototypes, hardware builds, and IoT-based system-level solutions that tackle real-world problems.
         </p>

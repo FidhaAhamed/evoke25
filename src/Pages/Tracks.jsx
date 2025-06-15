@@ -32,7 +32,7 @@ export default function Tracks() {
     <div className="min-h-screen text-white relative overflow-hidden bg-c1 font-jost">
         <Heading title = "SCOPES TO EXPLORE"/>
       
-      <div className="relative z-10 my-24">
+      <div className="relative z-10 my-6">
         
         {/* Tracks Grid */}
         <main className="px-4 pb-20">

@@ -62,11 +62,11 @@ const FAQ = () => {
 
   return (
     <div className="min-h-screen bg-c1 text-white font-jost">
-      <div className="relative z-10 container mx-auto px-4 py-16">
+      <div className="relative z-10 container mx-auto px-4">
         <Heading title = "FREQUENTLY ASKED QUESTIONS" />
 
         {/* FAQ Items */}
-        <div className="max-w-4xl mx-auto space-y-4 my-24">
+        <div className="max-w-4xl mx-auto space-y-4">
           {faqs.map((faq, index) => {
             const IconComponent = faq.icon;
             const isOpen = openIndex === index;
