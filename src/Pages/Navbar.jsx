@@ -15,9 +15,9 @@ const Navbar = () => {
   const navItems = [
     { label: "Home", id: "home" },
     { label: "About", id: "about" },
-    { label: "Tracks", id: "tracks" },
     { label: "Timeline", id: "timeline" },
-    { label: "Sponsors", id: "sponsors" },
+    { label: "Guidelines", id: "guidelines" },
+    { label: "FAQ", id: "faq" },
     
   ];
 
@@ -29,7 +29,7 @@ const Navbar = () => {
           <button
             key={item.id}
             onClick={() => handleScroll(item.id)}
-            className="text-white font-nebula hover:border border-white rounded-full px-4 py-2 transition"
+            className="text-white font-jost hover:border border-white rounded-full px-6 py-2 transition transition uppercase"
           >
             {item.label}
           </button>
@@ -45,7 +45,7 @@ const Navbar = () => {
 
       {/* Mobile Drawer */}
       <div
-        className={`fixed top-0 right-0 w-3/4 h-120 bg-black/90 backdrop-blur-md z-50 p-6 transition-transform duration-300 transform ${
+        className={`fixed top-0 right-0 w-3/4 h-120 bg-blue/90 backdrop-blur-md z-50 p-6 transition-transform duration-300 transform ${
           isOpen ? "translate-x-0" : "translate-x-full"
         } md:hidden`}
       >
@@ -59,7 +59,7 @@ const Navbar = () => {
             <li key={item.id}>
               <button
                 onClick={() => handleScroll(item.id)}
-                className="text-white text-lg font-nebula hover:text-primary-red"
+                className="text-white text-lg font-jost transition uppercase hover:text-indigo-900"
               >
                 {item.label}
               </button>
