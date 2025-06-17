@@ -66,7 +66,7 @@ const FAQ = () => {
         <Heading title = "FREQUENTLY ASKED QUESTIONS" />
 
         {/* FAQ Items */}
-        <div className="max-w-4xl mx-auto space-y-4">
+        <div className="max-w-4xl mx-auto space-y-4 mb-40">
           {faqs.map((faq, index) => {
             const IconComponent = faq.icon;
             const isOpen = openIndex === index;
