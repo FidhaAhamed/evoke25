@@ -61,7 +61,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="min-h-screen bg-c1 text-white font-jost">
+    <div className="min-h-screen bg-c1 text-white font-jost" id='faq'>
       <div className="relative z-10 container mx-auto px-4">
         <Heading title = "FREQUENTLY ASKED QUESTIONS" />
 

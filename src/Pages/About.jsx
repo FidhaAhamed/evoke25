@@ -3,7 +3,7 @@ import Heading from '../Components/Heading';
 
 const About = () => {
   return (
-    <section className="bg-c1 text-white py-10 px-6 md:px-20 text-center font-jost">
+    <section id='about' className="bg-c1 text-white py-10 px-6 md:px-20 text-center font-jost">
       
       <Heading title = "ABOUT EVOKE" />
 

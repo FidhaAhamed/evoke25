@@ -37,7 +37,7 @@ const Guidelines = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-c1 text-white font-jost">
+    <div className="min-h-screen bg-c1 text-white font-jost" id='guidelines'>
       <div className="relative z-10 container mx-auto px-4">
         <Heading title = "SUBMISSION GUIDELINES"/>
         {/* Guidelines Grid */}
