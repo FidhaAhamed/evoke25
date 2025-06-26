@@ -40,13 +40,13 @@ const FAQ = () => {
     {
       id: 6,
       question: "Is there a registration fee?",
-      answer: "Initial registration is free. A fee of ₹200 per team is applicable if your project gets selected.",
+      answer: "Initial registration is free. A fee of ₹300 per team is applicable if your project gets selected.",
       icon: CreditCard
     },
     {
       id: 7,
       question: "Will food be provided?",
-      answer: "Yes, lunch will be provided on the day of the expo.",
+      answer: "Yes, Refreshments will be provided on the day of the expo.",
       icon: Utensils
     },
     {

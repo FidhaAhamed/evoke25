@@ -24,14 +24,14 @@ const Guidelines = () => {
     {
       id: 3,
       title: "Submission Portal",
-      description: "Submit via Unstop Link provided by the organizers.",
+      description: "Submit via Unstop Link provided.",
       icon: Upload,
       color: "from-cyan-500 to-blue-500"
     },
     {
       id: 4,
       title: "Selection Fee",
-      description: "A fee of ₹200 applies only if your entry is selected to the final round.",
+      description: "A fee of ₹300 applies only if your entry is selected to the final round.",
       icon: DollarSign,
       color: "from-blue-600 to-indigo-600"
     }
