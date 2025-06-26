@@ -35,7 +35,10 @@ const Hero = () => {
           viewport={{ once: false }}
           transition={{ duration: 0.6, delay: 0.2 }}
         />
-        <motion.button 
+        <motion.a 
+          href="https://unstop.com/p/evoke-25-a-project-expo-mace-iot-club-iedc-mace-1501422"
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-[#112DBC] hover:bg-[#2238A4] px-6 py-3 rounded-lg font-medium text-sm shadow-md w-fit self-center"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -44,7 +47,7 @@ const Hero = () => {
           whileTap={{ scale: 0.95 }}
         >
           REGISTER NOW
-        </motion.button>
+        </motion.a>
       </motion.div>
 
       {/* Robot with animation */}
