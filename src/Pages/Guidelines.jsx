@@ -10,10 +10,24 @@ const Guidelines = () => {
     {
       id: 1,
       title: "Submission Format",
-      description: "Submit a PPT (template provided) covering the problem, solution, and other key aspects.",
+      description: (
+        <>
+          Submit a PPT (template provided) covering the problem, solution, and other key aspects.{' '}
+          <a
+            href="/EVOKE’25-team_name.pptx"
+            download
+            className="text-blue-300 hover:text-blue-400 transition-colors"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download Template
+          </a>
+        </>
+      ),
       icon: FileText,
       color: "from-blue-500 to-indigo-500"
     },
+
     {
       id: 2,
       title: "Hardware Prototype",
